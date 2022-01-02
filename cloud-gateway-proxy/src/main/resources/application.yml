@@ -13,6 +13,10 @@ spring:
         uri: http://localhost:8082/
         predicates:
         - Path=/app2/**
+      httpclient:
+        wiretap: true
+      httpserver:
+        wiretap: true
 
 logging:
   level:
@@ -24,3 +28,4 @@ logging:
     org.springframework.boot.autoconfigure.web: DEBUG
     reactor.netty: TRACE
     redisratelimiter: DEBUG
+
