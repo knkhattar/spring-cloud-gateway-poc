@@ -13,3 +13,10 @@ buildNumber.properties
 /cloud-gateway-proxy/.settings/org.eclipse.core.resources.prefs
 /cloud-gateway-proxy/.settings/org.eclipse.jdt.core.prefs
 /cloud-gateway-proxy/.settings/org.eclipse.m2e.core.prefs
+/cloud-gateway-proxy/*.project
+/service-one/*.classpath
+/service-one/*.project
+/service-one/.settings/*.prefs
+/service-two/*.classpath
+/service-two/*.project
+/service-two/.settings/*.prefs
