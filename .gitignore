@@ -9,3 +9,7 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+/cloud-gateway-proxy/*.classpath
+/cloud-gateway-proxy/.settings/org.eclipse.core.resources.prefs
+/cloud-gateway-proxy/.settings/org.eclipse.jdt.core.prefs
+/cloud-gateway-proxy/.settings/org.eclipse.m2e.core.prefs
