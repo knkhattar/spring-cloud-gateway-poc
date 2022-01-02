@@ -13,3 +13,14 @@ spring:
         uri: http://localhost:8082/
         predicates:
         - Path=/app2/**
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    org.springframework.boot.autoconfigure.web: DEBUG
+    reactor.netty: TRACE
+    redisratelimiter: DEBUG
